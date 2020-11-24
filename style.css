@@ -1,0 +1,128 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin-left: 18px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+}
+
+.icon {
+  color: #AAAAAA;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  box-shadow: 2px 2px 2px 2px #CCCCCC;
+}
+
+.input{
+  margin-left: 48px;
+  border-radius: 24px;
+  border: 1px solid #AAAAAA;
+  width: 719px;
+  height: 46px;
+  font-size: 18px;
+  padding-left: 18px;
+}
+
+.input:hover {
+  box-shadow: 1.5px 1.5px #CCCCCC;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.tabs {
+  border-bottom: 1px solid grey;
+  padding-left: 180px;
+  padding-bottom: 10px;
+  padding-top: 16px;
+}
+
+.tab {
+  display: inline;
+  padding: 8px;
+  color: grey;
+  cursor: pointer;
+}
+
+.right {
+  display: inline;
+  margin-left: 310px;
+}
+
+.container {
+  padding-left: 190px;
+}
+
+.searchList {
+  vertical-align: top;
+  width: 400px;
+  display: inline-block;
+}
+
+.searchResult {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.website {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.subwebsite {
+  color: #555555;
+  display: inline;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 4px;
+  text-decoration: none;
+  color: blue;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  color: #555555;
+  margin-bottom: 4px;
+}
+
+.searchCard {
+  margin: 20px;
+  padding: 12px;
+  width: 260px;
+  height: 500px;
+  display: inline-block;
+  border: 1px solid #AAAAAA;
+  border-radius: 24px;
+}
+
+.card {
+  display: inline-block;
+}
+
+.cardName {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.cardIntro {
+  font-size: 14px;
+}
